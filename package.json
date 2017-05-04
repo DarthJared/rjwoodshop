@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build -sm -ec -bh /repo name/ & ngh --silent=false"
+    "buildDeploy": "ng build --prod --base-href \"https://Jbeagle.github.io/rjwoodshop/\"",
+    "deploy": "angular-cli-ghpages"
   },
   "private": true,
   "dependencies": {

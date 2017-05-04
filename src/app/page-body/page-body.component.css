@@ -1,0 +1,16 @@
+.mainBody {
+	position: fixed;
+	overflow: auto;
+	top: 58px;
+	left: 0px;
+	margin: 0px;
+	width: 100%;
+	height: calc(100% - 58px);
+	background: url(../../assets/images/IMG_0931.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.5;
+	z-index: 0;
+}
